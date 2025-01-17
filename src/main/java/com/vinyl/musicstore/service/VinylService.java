@@ -17,7 +17,7 @@ public class VinylService {
         this.vinylRepository = vinylRepository;
     }
 
-    public Vinyl save(Vinyl vinyl) {
+    public Vinyl createVinyl(Vinyl vinyl) {
         return vinylRepository.save(vinyl);
     }
 
